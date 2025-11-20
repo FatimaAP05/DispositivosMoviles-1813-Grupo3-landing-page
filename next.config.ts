@@ -8,7 +8,13 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  
+  // START: GitHub Pages Config
+  output: 'export',
+  // END: GitHub Pages Config
+  
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
