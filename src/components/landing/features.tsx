@@ -55,19 +55,21 @@ export function Features() {
             {t('features.description')}
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-          {features.map((feature) => (
-            <Card key={feature.title} className="flex flex-col">
-              <CardHeader>
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-accent">
-                  {feature.icon}
-                </div>
-                <CardTitle className="font-headline">{feature.title}</CardTitle>
-                <CardDescription>{feature.description}</CardDescription>
-              </CardHeader>
-              {feature.content && <CardContent className="flex-1 flex flex-col justify-end">{feature.content}</CardContent>}
-            </Card>
-          ))}
+        <div className="mt-16 mx-auto max-w-4xl">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            {features.map((feature) => (
+              <Card key={feature.title} className="flex flex-col">
+                <CardHeader>
+                  <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-accent">
+                    {feature.icon}
+                  </div>
+                  <CardTitle className="font-headline">{feature.title}</CardTitle>
+                  <CardDescription>{feature.description}</CardDescription>
+                </CardHeader>
+                {feature.content && <CardContent className="flex-1 flex flex-col justify-end">{feature.content}</CardContent>}
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>
