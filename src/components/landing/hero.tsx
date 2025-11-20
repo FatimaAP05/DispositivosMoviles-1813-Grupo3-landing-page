@@ -11,7 +11,7 @@ const heroImage = PlaceHolderImages.find(img => img.id === 'hero-image');
 export function Hero() {
   const { t } = useI18n();
   return (
-    <section className="relative py-20 md:py-32">
+    <section className="relative py-10 md:py-16">
       <div
         aria-hidden="true"
         className="absolute inset-0 top-0 z-0 opacity-40"

@@ -27,7 +27,7 @@ const screenshots = PlaceHolderImages.filter(img => screenshotIds.includes(img.i
 export function Screenshots() {
   const { t } = useI18n();
   return (
-    <section id="screenshots" className="py-20 md:py-28">
+    <section id="screenshots" className="py-10 md:py-14">
       <div className="container px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
@@ -40,7 +40,7 @@ export function Screenshots() {
 
         <div className="mt-16">
           <Carousel
-            className="w-full max-w-4xl mx-auto"
+            className="w-full max-w-5xl mx-auto"
             opts={{
               loop: true,
               align: "start",
@@ -48,7 +48,7 @@ export function Screenshots() {
           >
             <CarouselContent className="-ml-2 md:-ml-4">
               {screenshots.map((screenshot) => (
-                <CarouselItem key={screenshot.id} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/4">
+                <CarouselItem key={screenshot.id} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                   <div className="p-1">
                     <Card className="overflow-hidden">
                       <CardContent className="p-0 flex items-center justify-center aspect-[9/19.5]">

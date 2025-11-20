@@ -45,7 +45,7 @@ export function Features() {
 
 
   return (
-    <section id="features" className="py-20 md:py-28 bg-accent/30">
+    <section id="features" className="py-10 md:py-14 bg-accent/30">
       <div className="container px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
