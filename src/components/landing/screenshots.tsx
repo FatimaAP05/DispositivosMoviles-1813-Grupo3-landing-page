@@ -40,7 +40,7 @@ export function Screenshots() {
 
         <div className="mt-16">
           <Carousel
-            className="w-full max-w-5xl mx-auto"
+            className="w-full max-w-4xl mx-auto"
             opts={{
               loop: true,
               align: "start",
