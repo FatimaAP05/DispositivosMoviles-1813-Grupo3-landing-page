@@ -61,5 +61,14 @@
     "tagline": "Empowering elderly care through technology and real-time family connections.",
     "email": "Email",
     "phone": "Phone"
+  },
+  "faq": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "q1": "What is Vitalia?",
+    "a1": "Vitalia is a comprehensive platform designed to bridge the communication gap between families and care centers, ensuring peace of mind and seamless resident monitoring through real-time updates, direct messaging, and health tracking.",
+    "q2": "How do I access my relative’s reports?",
+    "a2": "You can access your relative's reports through the resident monitoring section of the Vitalia app. Detailed reports on daily activities, health trends, and staff notes are available 24/7, providing you with up-to-date information.",
+    "q3": "Is information in Vitalia secure?",
+    "a3": "Absolutely. We prioritize the security and privacy of your data. All communication and resident information is encrypted and stored securely, complying with the highest industry standards to ensure confidentiality and peace of mind."
   }
 }
