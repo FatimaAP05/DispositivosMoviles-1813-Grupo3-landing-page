@@ -29,16 +29,6 @@
       "description": "Easily schedule and manage medical appointments, social activities, and family visits through an intuitive shared calendar."
     }
   },
-  "aiSummarizer": {
-    "title": "Instant Resident Insights",
-    "description": "Use our AI-powered tool to instantly summarize lengthy resident notes.",
-    "formLabel": "Paste Resident Data Here",
-    "submitButton": "Generate Summary",
-    "summaryTitle": "AI-Generated Summary",
-    "errorTitle": "Error",
-    "successTitle": "Success",
-    "summarySuccess": "Summary generated successfully."
-  },
   "screenshots": {
     "title": "An Intuitive Experience",
     "description": "Explore the clean and user-friendly interface of VitaliaConnect. Designed for clarity and ease of use for everyone."
