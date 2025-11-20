@@ -48,7 +48,7 @@ export function Screenshots() {
           >
             <CarouselContent className="-ml-2 md:-ml-4">
               {screenshots.map((screenshot) => (
-                <CarouselItem key={screenshot.id} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={screenshot.id} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/4">
                   <div className="p-1">
                     <Card className="overflow-hidden">
                       <CardContent className="p-0 flex items-center justify-center aspect-[9/19.5]">
