@@ -57,7 +57,9 @@
     "messagePlaceholder": "Escribe tu mensaje..."
   },
   "footer": {
-    "builtBy": "Construido por tu amigable IA del vecindario.",
-    "rightsReserved": "Todos los derechos reservados."
+    "rightsReserved": "Todos los derechos reservados.",
+    "tagline": "Potenciando el cuidado de personas mayores a través de la tecnología y conexiones familiares en tiempo real.",
+    "email": "Correo electrónico",
+    "phone": "Teléfono"
   }
 }

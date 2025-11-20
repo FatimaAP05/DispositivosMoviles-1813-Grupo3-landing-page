@@ -57,7 +57,9 @@
     "messagePlaceholder": "Write your message..."
   },
   "footer": {
-    "builtBy": "Built by your friendly neighborhood AI.",
-    "rightsReserved": "All rights reserved."
+    "rightsReserved": "All rights reserved.",
+    "tagline": "Empowering elderly care through technology and real-time family connections.",
+    "email": "Email",
+    "phone": "Phone"
   }
 }
