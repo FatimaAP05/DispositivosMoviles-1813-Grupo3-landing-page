@@ -4,12 +4,30 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { useI18n } from '@/context/i18n-context';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
+
+// This is a workaround for basePath not being available on the client at build time.
+// We resolve the correct image path on the client.
+const useAssetPath = (path: string) => {
+  const [assetPath, setAssetPath] = useState(path);
+
+  useEffect(() => {
+    // In a static export, `basePath` is not needed on the client.
+    // The relative path from the public directory works correctly.
+    setAssetPath(`/${path.split('/').pop()}`);
+  }, [path]);
+
+  // When deploying to GitHub pages, the assetPrefix is added by Next.js build process.
+  // We just need the path relative to the public folder.
+  return `/${path.split('/').pop()}`;
+};
+
 
 export function Hero() {
   const { t } = useI18n();
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-image');
-  const heroImageUrl = heroImage ? `${basePath}/${heroImage.imageUrl}` : `${basePath}/cuidadores_funciones.png`;
+  const heroImageUrl = heroImage ? `/${heroImage.imageUrl}` : `/place_holder.jpg`;
 
   return (
     <section 

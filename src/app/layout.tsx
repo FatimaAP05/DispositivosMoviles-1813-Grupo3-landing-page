@@ -3,13 +3,11 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { I18nProvider } from '@/context/i18n-context';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 export const metadata: Metadata = {
   title: 'Vitalia',
   description: 'Connecting Families, Enhancing Care.',
   icons: {
-    icon: `${basePath}/vitalia_logo.png`,
+    icon: '/vitalia_logo.png',
   },
 };
 

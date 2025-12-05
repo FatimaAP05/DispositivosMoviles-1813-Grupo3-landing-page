@@ -8,12 +8,11 @@ import { useI18n } from '@/context/i18n-context';
 
 export function Header() {
   const { t } = useI18n();
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2 ml-6">
-          <Image src={`${basePath}/vitalia_logo.png`} alt="Vitalia Logo" width={50} height={50} />
+          <Image src="/vitalia_logo.png" alt="Vitalia Logo" width={50} height={50} />
           <span className="font-bold sm:inline-block">Vitalia</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2 mr-6">

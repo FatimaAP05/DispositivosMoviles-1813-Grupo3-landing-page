@@ -16,7 +16,6 @@ const screenshots = PlaceHolderImages.filter(p => p.id.startsWith('screenshot-fa
 
 export function ScreenshotsFamily() {
   const { t } = useI18n();
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   
   return (
     <section id="screenshots-family" className="py-10 md:py-14 bg-accent/30">
@@ -45,7 +44,7 @@ export function ScreenshotsFamily() {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0 flex items-center justify-center aspect-[9/19.5]">
                         <Image
-                          src={screenshot.imageUrl}
+                          src={`/${screenshot.imageUrl}`}
                           alt={screenshot.description}
                           width={432}
                           height={936}
