@@ -2,8 +2,8 @@
   "placeholderImages": [
     {
       "id": "hero-image",
-      "description": "A smiling senior woman using a tablet to video call her family.",
-      "imageUrl": "cuidadores_funciones.png",
+      "description": "Hero background image",
+      "imageUrl": "place_holder.jpg",
       "imageHint": "happy senior family"
     },
     {
