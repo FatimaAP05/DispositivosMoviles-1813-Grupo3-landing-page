@@ -9,49 +9,67 @@
     {
       "id": "screenshot-1",
       "description": "App screenshot 1",
-      "imageUrl": "image.png",
+      "imageUrl": "evidencia1.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-2",
       "description": "App screenshot 2",
-      "imageUrl": "image-1.png",
+      "imageUrl": "evidencia2.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-3",
       "description": "App screenshot 3",
-      "imageUrl": "image-2.png",
+      "imageUrl": "evidencia3.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-4",
       "description": "App screenshot 4",
-      "imageUrl": "image-3.png",
+      "imageUrl": "evidencia4.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-5",
       "description": "App screenshot 5",
-      "imageUrl": "image-4.png",
+      "imageUrl": "evidencia5.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-6",
       "description": "App screenshot 6",
-      "imageUrl": "image-5.png",
+      "imageUrl": "evidencia6.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-7",
       "description": "App screenshot 7",
-      "imageUrl": "image-6.png",
+      "imageUrl": "evidencia7.png",
       "imageHint": "app screenshot"
     },
     {
       "id": "screenshot-8",
       "description": "App screenshot 8",
-      "imageUrl": "image-7.png",
+      "imageUrl": "evidencia8.png",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-9",
+      "description": "App screenshot 9",
+      "imageUrl": "evidencia9.png",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-10",
+      "description": "App screenshot 10",
+      "imageUrl": "evidencia10.png",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-11",
+      "description": "App screenshot 11",
+      "imageUrl": "evidencia11.png",
       "imageHint": "app screenshot"
     }
   ]
