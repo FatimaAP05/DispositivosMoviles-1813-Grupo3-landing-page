@@ -11,6 +11,7 @@ import {
 
 export function Faq() {
   const { t } = useI18n();
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   const faqs = [
     {
@@ -38,7 +39,7 @@ export function Faq() {
         <div className="mt-16 mx-auto max-w-4xl flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
             <Image
-              src="/logo.png"
+              src={`${basePath}/logo.png`}
               alt="Vitalia Logo"
               width={150}
               height={150}

@@ -24,6 +24,8 @@ const screenshots = [
 
 export function Screenshots() {
   const { t } = useI18n();
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  
   return (
     <section id="screenshots" className="py-10 md:py-14">
       <div className="container px-4">
@@ -51,7 +53,7 @@ export function Screenshots() {
                     <Card className="overflow-hidden">
                       <CardContent className="p-0 flex items-center justify-center aspect-[9/19.5]">
                         <Image
-                          src={`/${screenshot.imageUrl}`}
+                          src={`${basePath}/${screenshot.imageUrl}`}
                           alt={screenshot.description}
                           width={432}
                           height={936}

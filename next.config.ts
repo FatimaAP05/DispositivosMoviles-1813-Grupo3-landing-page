@@ -1,14 +1,12 @@
 import type {NextConfig} from 'next';
 
-const repo = 'DispositivosMoviles1813-GrupoX-landing-page';
-const assetPrefix = `/${repo}/`;
-const basePath = `/${repo}`;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  assetPrefix: assetPrefix,
   basePath: basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
   typescript: {
     ignoreBuildErrors: true,
   },

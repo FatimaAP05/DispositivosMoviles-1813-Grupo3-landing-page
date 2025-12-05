@@ -7,13 +7,14 @@ import { useI18n } from '@/context/i18n-context';
 
 export function Hero() {
   const { t } = useI18n();
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const heroImageUrl = 'cuidadores_funciones.png';
 
   return (
     <section 
       className="relative py-20 md:py-28 text-white"
       style={{
-        backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${heroImageUrl})`,
+        backgroundImage: `url(${basePath}/${heroImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

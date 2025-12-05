@@ -3,8 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { I18nProvider } from '@/context/i18n-context';
 
-const repo = 'DispositivosMoviles1813-GrupoX-landing-page';
-const basePath = `/${repo}`;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export const metadata: Metadata = {
   title: 'Vitalia',
