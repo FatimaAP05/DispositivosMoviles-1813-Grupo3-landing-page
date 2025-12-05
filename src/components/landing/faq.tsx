@@ -39,7 +39,7 @@ export function Faq() {
         <div className="mt-16 mx-auto max-w-4xl flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
             <Image
-              src={`${basePath}/logo.png`}
+              src={`${basePath}/vitalia_logo.png`}
               alt="Vitalia Logo"
               width={150}
               height={150}

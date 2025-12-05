@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Vitalia',
   description: 'Connecting Families, Enhancing Care.',
   icons: {
-    icon: `${basePath}/logo.png`,
+    icon: `${basePath}/vitalia_logo.png`,
   },
 };
 
