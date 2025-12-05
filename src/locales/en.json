@@ -36,9 +36,13 @@
     "title": "About The Team",
     "description": "Meet the team behind Vitalia."
   },
-  "screenshots": {
-    "title": "An Intuitive Experience",
-    "description": "Explore the clean and user-friendly interface of Vitalia. Designed for clarity and ease of use for everyone."
+  "screenshotsCaregiver": {
+    "title": "An Intuitive Experience for Caregivers",
+    "description": "Explore the clean and user-friendly interface of Vitalia for caregivers. Designed for clarity and ease of use."
+  },
+  "screenshotsFamily": {
+    "title": "Stay Connected as a Family",
+    "description": "Discover how Vitalia keeps families informed and connected with their loved ones."
   },
   "aiSummarizer": {
     "title": "AI-Powered Summarization",

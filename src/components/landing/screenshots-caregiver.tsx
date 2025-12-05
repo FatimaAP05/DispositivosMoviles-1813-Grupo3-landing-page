@@ -12,21 +12,21 @@ import { Card, CardContent } from '@/components/ui/card';
 import { useI18n } from '@/context/i18n-context';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-const screenshots = PlaceHolderImages.filter(p => p.id.startsWith('screenshot-'));
+const screenshots = PlaceHolderImages.filter(p => p.id.startsWith('screenshot-caregiver-'));
 
-export function Screenshots() {
+export function ScreenshotsCaregiver() {
   const { t } = useI18n();
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   
   return (
-    <section id="screenshots" className="py-10 md:py-14">
+    <section id="screenshots-caregiver" className="py-10 md:py-14">
       <div className="container px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            {t('screenshots.title')}
+            {t('screenshotsCaregiver.title')}
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            {t('screenshots.description')}
+            {t('screenshotsCaregiver.description')}
           </p>
         </div>
 

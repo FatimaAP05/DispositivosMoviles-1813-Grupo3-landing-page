@@ -7,69 +7,93 @@
       "imageHint": "happy senior family"
     },
     {
-      "id": "screenshot-1",
+      "id": "screenshot-caregiver-1",
       "description": "App screenshot 1",
       "imageUrl": "evidencia1.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-2",
+      "id": "screenshot-caregiver-2",
       "description": "App screenshot 2",
       "imageUrl": "evidencia2.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-3",
+      "id": "screenshot-caregiver-3",
       "description": "App screenshot 3",
       "imageUrl": "evidencia3.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-4",
+      "id": "screenshot-caregiver-4",
       "description": "App screenshot 4",
       "imageUrl": "evidencia4.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-5",
+      "id": "screenshot-caregiver-5",
       "description": "App screenshot 5",
       "imageUrl": "evidencia5.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-6",
+      "id": "screenshot-caregiver-6",
       "description": "App screenshot 6",
       "imageUrl": "evidencia6.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-7",
+      "id": "screenshot-caregiver-7",
       "description": "App screenshot 7",
       "imageUrl": "evidencia7.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-8",
+      "id": "screenshot-caregiver-8",
       "description": "App screenshot 8",
       "imageUrl": "evidencia8.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-9",
+      "id": "screenshot-caregiver-9",
       "description": "App screenshot 9",
       "imageUrl": "evidencia9.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-10",
+      "id": "screenshot-caregiver-10",
       "description": "App screenshot 10",
       "imageUrl": "evidencia10.png",
       "imageHint": "app screenshot"
     },
     {
-      "id": "screenshot-11",
+      "id": "screenshot-caregiver-11",
       "description": "App screenshot 11",
       "imageUrl": "evidencia11.png",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-family-1",
+      "description": "Family view screenshot 1",
+      "imageUrl": "https://images.unsplash.com/photo-1587573578335-9672da4d0292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHAlMjBzY3JlZW5zaG90fGVufDB8fHx8MTc2NDk1MTQzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-family-2",
+      "description": "Family view screenshot 2",
+      "imageUrl": "https://images.unsplash.com/photo-1632505084030-9b97405cb28d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcHAlMjBzY3JlZW5zaG90fGVufDB8fHx8MTc2NDk1MTQzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-family-3",
+      "description": "Family view screenshot 3",
+      "imageUrl": "https://images.unsplash.com/photo-1644143155332-2ae7baf7d32f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXBwJTIwc2NyZWVuc2hvdHxlbnwwfHx8fDE3NjQ5NTE0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screenshot"
+    },
+    {
+      "id": "screenshot-family-4",
+      "description": "Family view screenshot 4",
+      "imageUrl": "https://images.unsplash.com/photo-1632505084024-f6bc3021fcce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcHAlMjBzY3JlZW5zaG90fGVufDB8fHx8MTc2NDk1MTQzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "app screenshot"
     }
   ]
