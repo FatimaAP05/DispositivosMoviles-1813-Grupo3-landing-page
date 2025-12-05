@@ -10,17 +10,9 @@ import {
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
 import { useI18n } from '@/context/i18n-context';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-const screenshots = [
-  { id: 'screenshot-1', imageUrl: 'image.png', description: 'App screenshot 1' },
-  { id: 'screenshot-2', imageUrl: 'image-1.png', description: 'App screenshot 2' },
-  { id: 'screenshot-3', imageUrl: 'image-2.png', description: 'App screenshot 3' },
-  { id: 'screenshot-4', imageUrl: 'image-3.png', description: 'App screenshot 4' },
-  { id: 'screenshot-5', imageUrl: 'image-4.png', description: 'App screenshot 5' },
-  { id: 'screenshot-6', imageUrl: 'image-5.png', description: 'App screenshot 6' },
-  { id: 'screenshot-7', imageUrl: 'image-6.png', description: 'App screenshot 7' },
-  { id: 'screenshot-8', imageUrl: 'image-7.png', description: 'App screenshot 8' },
-];
+const screenshots = PlaceHolderImages.filter(p => p.id.startsWith('screenshot-'));
 
 export function Screenshots() {
   const { t } = useI18n();

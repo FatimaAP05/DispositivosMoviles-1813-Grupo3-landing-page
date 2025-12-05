@@ -1,20 +1,21 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { useI18n } from '@/context/i18n-context';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
   const { t } = useI18n();
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  const heroImageUrl = 'cuidadores_funciones.png';
+  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-image');
+  const heroImageUrl = heroImage ? `${basePath}/${heroImage.imageUrl}` : `${basePath}/cuidadores_funciones.png`;
 
   return (
     <section 
       className="relative py-20 md:py-28 text-white"
       style={{
-        backgroundImage: `url(${basePath}/${heroImageUrl})`,
+        backgroundImage: `url(${heroImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
