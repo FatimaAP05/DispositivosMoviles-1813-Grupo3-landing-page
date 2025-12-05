@@ -38,7 +38,7 @@ export function Faq() {
         <div className="mt-16 mx-auto max-w-4xl flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
             <Image
-              src="https://media.discordapp.net/attachments/1286768073453342767/1441098476266983495/logo.png?ex=69208f0b&is=691f3d8b&hm=d9f95a426a248bc51ee8fcbd6277621ffdd2c9cf747905e415d6a391f797e050&=&format=webp&quality=lossless&width=750&height=750"
+              src="/logo.png"
               alt="Vitalia Logo"
               width={150}
               height={150}

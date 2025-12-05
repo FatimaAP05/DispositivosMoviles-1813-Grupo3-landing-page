@@ -12,7 +12,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2 ml-6">
-          <Image src="https://media.discordapp.net/attachments/1286768073453342767/1441098476266983495/logo.png?ex=69208f0b&is=691f3d8b&hm=d9f95a426a248bc51ee8fcbd6277621ffdd2c9cf747905e415d6a391f797e050&=&format=webp&quality=lossless&width=750&height=750" alt="Vitalia Logo" width={50} height={50} />
+          <Image src="/logo.png" alt="Vitalia Logo" width={50} height={50} />
           <span className="font-bold sm:inline-block">Vitalia</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2 mr-6">

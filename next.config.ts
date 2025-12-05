@@ -1,15 +1,20 @@
 import type {NextConfig} from 'next';
 
+const repo = 'DispositivosMoviles1813-GrupoX-landing-page';
+const assetPrefix = `/${repo}/`;
+const basePath = `/${repo}`;
+
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
+  assetPrefix: assetPrefix,
+  basePath: basePath,
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  
-  output: 'export',
   images: {
     unoptimized: true,
     remotePatterns: [

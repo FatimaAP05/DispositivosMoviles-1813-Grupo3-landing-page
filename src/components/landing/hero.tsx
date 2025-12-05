@@ -4,17 +4,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { useI18n } from '@/context/i18n-context';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
   const { t } = useI18n();
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-image');
+  const heroImageUrl = 'cuidadores_funciones.png';
 
   return (
     <section 
       className="relative py-20 md:py-28 text-white"
       style={{
-        backgroundImage: `url('https://media.discordapp.net/attachments/1286768073453342767/1441110520802574418/cuidadores_funciones.png?ex=69209a42&is=691f48c2&hm=b9830acc1beb586f57abe756391633590d66fdaa26e0acd288c2357709846302&=&format=webp&quality=lossless&width=1128&height=590')`,
+        backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${heroImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

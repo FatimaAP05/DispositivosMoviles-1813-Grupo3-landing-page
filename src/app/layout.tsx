@@ -3,11 +3,14 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { I18nProvider } from '@/context/i18n-context';
 
+const repo = 'DispositivosMoviles1813-GrupoX-landing-page';
+const basePath = `/${repo}`;
+
 export const metadata: Metadata = {
   title: 'Vitalia',
   description: 'Connecting Families, Enhancing Care.',
   icons: {
-    icon: 'https://media.discordapp.net/attachments/1286768073453342767/1441098476266983495/logo.png?ex=69208f0b&is=691f3d8b&hm=d9f95a426a248bc51ee8fcbd6277621ffdd2c9cf747905e415d6a391f797e050&=&format=webp&quality=lossless&width=750&height=750',
+    icon: `${basePath}/logo.png`,
   },
 };
 
