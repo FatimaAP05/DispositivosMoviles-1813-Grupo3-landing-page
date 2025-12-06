@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 import {
   Bell,
@@ -77,20 +78,29 @@ export function Features() {
 }
 
 function ActivityChart() {
-  const data = [
-    { day: 'Mon', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Tue', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Wed', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Thu', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Fri', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Sat', activity: Math.floor(Math.random() * 100) + 50 },
-    { day: 'Sun', activity: Math.floor(Math.random() * 100) + 50 },
-  ];
+  const [chartData, setChartData] = useState<any[]>([]);
 
+  useEffect(() => {
+    const data = [
+      { day: 'Mon', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Tue', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Wed', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Thu', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Fri', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Sat', activity: Math.floor(Math.random() * 100) + 50 },
+      { day: 'Sun', activity: Math.floor(Math.random() * 100) + 50 },
+    ];
+    setChartData(data);
+  }, []);
+
+  if (chartData.length === 0) {
+    return <div className="h-[150px] w-full pt-4" />;
+  }
+  
   return (
     <div className="h-[150px] w-full pt-4">
       <ResponsiveContainer width="100%" height="100%">
-        <BarChart data={data}>
+        <BarChart data={chartData}>
           <XAxis
             dataKey="day"
             stroke="hsl(var(--muted-foreground))"
