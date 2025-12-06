@@ -42,7 +42,7 @@ export default function DownloadPage() {
                 </div>
               </Button>
             </Link>
-            <Link href="#" passHref>
+            <Link href="/vitalia.apk" passHref download>
               <Button size="lg" className="w-60">
                 <GooglePlayIcon className="mr-2 h-6 w-6" />
                 <div>
