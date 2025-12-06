@@ -33,7 +33,7 @@ export default function DownloadPage() {
             {t('download.description')}
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="#" passHref>
+            <Link href="/vitalia1.apk" passHref download>
               <Button size="lg" className="w-60">
                 <AppleIcon className="mr-2 h-6 w-6" />
                 <div>
